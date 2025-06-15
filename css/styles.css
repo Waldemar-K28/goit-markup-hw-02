@@ -78,6 +78,7 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -112,13 +113,14 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list-item {
     background-color: #fff;
 }
 
-.team-item-title {
+.team-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -127,7 +129,7 @@ a {
     color: #2e2f42;
 }
 
-.team-item-text {
+.team-list-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -143,9 +145,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.portfolio-item-title {
+.portfolio-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -153,7 +156,7 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-item-text {
+.portfolio-list-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -162,7 +165,6 @@ a {
 /**/
 .page-footer {
     background-color: #2e2f42;
-    ;
 }
 
 .footer-logo .logo-part {
